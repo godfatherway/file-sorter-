@@ -21,7 +21,7 @@ def sort_files_by_extension(folder_path):
             shutil.move(file_path, os.path.join(extension_folder, filename))
 
 # Replace 'folder_path' with the path to your desired folder
-folder_path = r'C:\Users\Andrei Fuentes\Desktop\tjmedia\tjt\TJT'
+folder_path = r''
 
 # Call the function to sort files by extension
 sort_files_by_extension(folder_path)
